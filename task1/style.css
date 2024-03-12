@@ -53,17 +53,27 @@ p {
     font-size: 20px;
     font-family: "Montserrat";
 }
+.nav div{
+    font-family: "Montserrat";
+    cursor: pointer;
+}
+
 
 .selected {
     color: #cb52c7;
 }
 
 button {
-    background-color: #c359c8;
+    background-color: #c541cc;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
+}
+
+button:hover {
+    background-color: #b728bf;
+    cursor: pointer;
 }
 
 input,
@@ -110,4 +120,5 @@ input:focus {
     height: 35px;
     width: 35px;
     margin-right: 10px;
+    
 }
