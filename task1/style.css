@@ -1,13 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
     font-family: Arial;
 }
-p{
+
+p {
     line-height: 40px;
 }
-.bg{
+
+.bg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,10 +17,11 @@ p{
     height: 100vh;
     background-image: url("https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?q=80&w=1910&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.content{
+
+.content {
     background-color: #0a0a4b;
     color: white;
     width: 1150px;
@@ -26,14 +29,16 @@ p{
     padding: 20px 60px;
     border-radius: 10px;
 }
-.maincontent{
+
+.maincontent {
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* margin: 40px; */
     padding-top: 15px;
 }
-.heading{
+
+.heading {
     color: #cb53c7;
     font-size: 30px;
     font-weight: 700;
@@ -41,22 +46,28 @@ p{
     font-family: "Montserrat", sans-serif;
 
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-around;
     font-size: 20px;
+    font-family: "Montserrat";
 }
-.selected{
+
+.selected {
     color: #cb52c7;
 }
-button{
+
+button {
     background-color: #c359c8;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
 }
-input,textarea{
+
+input,
+textarea {
     background-color: #464691;
     border: none;
     border-radius: 5px;
@@ -66,27 +77,36 @@ input,textarea{
     margin-bottom: 15px;
     color: white;
 }
-::placeholder{
+
+::placeholder {
     color: rgb(169, 169, 169);
 }
-textarea{
+
+textarea {
     width: 470px;
     margin: 2px 0;
     margin-bottom: 15px;
 }
-input.focus{
+
+input.focus {
     border: none;
 }
-.left{
+
+.left {
     width: 70%;
 }
-.right{
+
+.right {
     width: 30%;
 }
-textarea:focus, input:focus{
+
+textarea:focus,
+input:focus {
     outline: none;
 }
-.logo{
+
+.logo {
+    cursor: pointer;
     height: 35px;
     width: 35px;
     margin-right: 10px;
